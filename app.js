@@ -9,4 +9,4 @@ const move = () => {
 };
 move();
 
-setInterval(move, 1000);
+setInterval(move, 5000);

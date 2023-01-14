@@ -12,34 +12,44 @@ html {
 .container {
     width: 1500px;
     height: 300px;
-    background-color: rgb(234, 182, 255);
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+    color: red;
+    box-shadow: -5px -5px 30px 5px red, 5px 5px 30px 5px blue;
 }
 .item {
     right: -40px;
     width: 200px;
     height: 200px;
     position: absolute;
+    border-radius: 20px;
 }
 #i0 {
     background-color: red;
+    box-shadow: 0 0 30px 5px red;
 }
 #i1 {
     background-color: orange;
+    box-shadow: 0 0 30px 5px orange;
 }
 #i2 {
     background-color: yellow;
+    box-shadow: 0 0 30px 5px yellow;
 }
 #i3 {
     background-color: green;
+    box-shadow: 0 0 30px 5px green;
 }
 #i4 {
     background-color: blue;
+    box-shadow: 0 0 30px 5px blue;
 }
 #i5 {
     background-color: blueviolet;
+    box-shadow: 0 0 30px 5px blueviolet;
 }
 .i1 {
     translate: 00px;
@@ -48,12 +58,12 @@ html {
 .i2 {
     translate: -300px;
     transition: ease-in-out 0.3s;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 .i3 {
     translate: -600px;
     transition: ease-in-out 0.3s;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 .i4 {
     translate: -900px;
@@ -63,10 +73,10 @@ html {
 .i5 {
     translate: -1200px;
     transition: ease-in-out 0.3s;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 .i6 {
     translate: -1500px;
     transition: ease-in-out 0.3s;
-    opacity: 0.2;
+    opacity: 0.1;
 }
